@@ -5,7 +5,8 @@ all: ./http-status-codes.sh
 
 clean:
 	rm ./http-status-codes.csv || :
-	rm ./http-status-code-preprocessed.csv || :
+	rm ./http-status-codes-preprocessed.csv || :
+	rm ./http-status-codes-preprocessed.tsv || :
 	rm ./http-status-codes.sh || :
 
 http-status-codes.csv:
